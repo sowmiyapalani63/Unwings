@@ -166,6 +166,9 @@ input{
 .social-media a:hover {
     color: black; 
 }
+.testimonial-card {
+    border-radius: 0; 
+}
 
 @media (min-width: 992px) {
     #custom-padding.btn{
@@ -176,6 +179,9 @@ input{
     }
     .sync-sub-para{
         width: 50%;
+    }
+     .testimonial-card {
+        border-radius: 50rem; 
     }
 }
 @media only screen and (min-width: 1280px) {
@@ -215,7 +221,9 @@ input{
     }
 } 
 @media (max-width: 529px) {
-   
+   .testimonial-row{
+    gap: 20px;
+   }
     .project-section{
         gap: 4px;
     }
