@@ -200,7 +200,7 @@ input{
         font-size: 22px;
     }
 }
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1024px)and (max-device-width: 1279px){
     .get-started-img{
         margin-top: -193px;
     }
