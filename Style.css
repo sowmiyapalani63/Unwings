@@ -156,7 +156,9 @@ input{
    
     height: 250px;;
 }
-
+.custom-border-radius {
+    border-radius: 4.25rem !important;
+} 
 .sample{
     height: 412px;
 }
